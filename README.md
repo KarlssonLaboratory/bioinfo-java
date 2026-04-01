@@ -1,13 +1,13 @@
 [![Build and Push Docker Image](https://github.com/KarlssonLaboratory/bioinfo-java/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/KarlssonLaboratory/bioinfo-java/actions/workflows/docker-publish.yml)
 
-A java container with tabix, unzip and wget. Mainly used to run [snpEff](https://pcingola.github.io/SnpEff/) software inside a nextflow pipeline.
+A java ([eclipse-temurin:21-jre-jammy](https://hub.docker.com/_/eclipse-temurin/)) container with tabix, unzip and wget. Mainly used to run [snpEff](https://pcingola.github.io/SnpEff/) software inside a nextflow pipeline.
 
 > [!NOTE]
 > Every push to `main` automatically builds and pushes the image to GitHub Container Registry. Tagged releases (e.g. `v1.0.0`) produce versioned image tags.
 
 ## Included softwares
 
-`tabix`, `unzip`, `wget`.
+`java`, `tabix`, `unzip`, `wget`.
 
 ## Include in nextflow process
 
